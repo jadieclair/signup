@@ -1,0 +1,272 @@
+.login {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.log-card {
+  display: inline-flex;
+  width: 70%;
+  height: 90%;
+  border-radius: 60px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.log-right {
+  flex: 1;
+  width: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.log-left {
+  flex: 1;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.log-logo {
+  width: 95px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+.log-header {
+  color: #000;
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.log-account {
+  color: #000;
+  font-family: "Urbanist";
+  font-size: 15px;
+  text-align: center;
+  margin-top: -60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.log-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  margin-top: -10px;
+}
+
+.log-solid-line {
+  text-align: center;
+  justify-content: center;
+  height: 1px;
+  width: 60px;
+  background: #afa8a8;
+}
+
+.log-or-text {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #afa8a8;
+}
+
+.log-form {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 80px;
+  margin-top: -50px;
+}
+
+.log-input {
+  display: flex;
+  border-radius: 6px;
+  border: 1px solid #d2d2d2;
+  width: 300px;
+  height: 30px;
+}
+
+::placeholder {
+  color: #2e2e2e;
+}
+
+.log-checkbox {
+  color: #000;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.log-rememberme {
+  display: flex;
+  color: black;
+  margin-top: 5px;
+  font-family: Cabin;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.log-in-button {
+  width: 300px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  color: white;
+  background: #000;
+  margin-top: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.log-in-button:hover {
+  background-color: #fec00f;
+  color: #000;
+}
+
+.log-accountnone {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -25px;
+  margin-left: 115px;
+  cursor: pointer;
+}
+
+.log-but {
+  color: #fec00f;
+  font-family: Urbanist;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  background-color: white;
+}
+
+.log-but:hover {
+  color: #000;
+}
+
+.log-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 376px) {
+  .login {
+    background-color: grey;
+  }
+
+  .log-card {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .log-header {
+    color: #000;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .log-right {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .log-left {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .log-account {
+    color: #000;
+    font-family: "Urbanist";
+    font-size: 15px;
+    text-align: center;
+    margin-top: -60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .log-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: -10px;
+  }
+
+  .log-form {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 28px;
+    margin-top: -50px;
+  }
+
+  .log-input {
+    display: flex;
+    border-radius: 6px;
+    border: 1px solid #d2d2d2;
+    width: 250px;
+  }
+
+  .log-checkbox {
+    text-align: center;
+    margin-left: -5px;
+  }
+
+  .log-in-button {
+    width: 80%;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+
+  .log-in-button:hover {
+    background-color: #fec00f;
+    color: #000;
+  }
+
+  .log-accountnone {
+    margin-left: -15;
+  }
+
+  .log-img {
+    display: none;
+  }
+}
